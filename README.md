@@ -1,5 +1,5 @@
 # Project
-web Project
+Bank registration form
 
 # web Project
 
@@ -83,12 +83,13 @@ insert a record
 
 
 # Web Page 
-![image](https://user-images.githubusercontent.com/88770440/129271100-128a47ab-d32f-410b-809a-6658a67511e0.png)
+![image](https://user-images.githubusercontent.com/88770440/129282620-eff1350e-ccf3-4b02-b022-f6753c26641f.png)
 
 # Inserting data
-![image](https://user-images.githubusercontent.com/88770440/129271438-2bc14dde-8ce7-4227-99d8-371c6e04531b.png)
+![image](https://user-images.githubusercontent.com/88770440/129282553-3a07ad7f-80b6-4184-bb95-952ffa20ebe7.png)
 
 # Database 
-![image](https://user-images.githubusercontent.com/88770440/129271237-b140dbeb-5089-4aa5-9953-796f0d77925a.png)
+![image](https://user-images.githubusercontent.com/88770440/129282476-a366bb7d-59a4-4cdd-a5a4-7a9d734cbe2a.png)
+
 
 
