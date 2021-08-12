@@ -71,3 +71,14 @@ In this project, you can do the following:
 Register a Employee.
 insert a record
 
+
+#Web Page 
+![image](https://user-images.githubusercontent.com/88770440/129271100-128a47ab-d32f-410b-809a-6658a67511e0.png)
+
+#inserting data
+![image](https://user-images.githubusercontent.com/88770440/129271438-2bc14dde-8ce7-4227-99d8-371c6e04531b.png)
+
+#database 
+![image](https://user-images.githubusercontent.com/88770440/129271237-b140dbeb-5089-4aa5-9953-796f0d77925a.png)
+
+
