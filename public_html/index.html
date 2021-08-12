@@ -8,10 +8,29 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <script src="https://login2explore.com/jpdb/resources/js/0.0.3/jpdb-commons.js"></script>
+         <style type="text/css">
+		th 
+		{
+			color: #000;
+			font-size: 24px;
+			font-weight: bold;
+			text-align: left;
+		}
+		td	
+		{
+			color: #000;
+		}
+		body
+   	 {
+		background-color:#D3D3D3;
+		color:white;
+  		font-family:verdana;
+	}
+	</style>
         </head>
         <body>
             <div class="container">
-                <h2>Vertical (basic) form</h2>
+                <h2>Form Page</h2>
                 <form id="empForm" method="post">
                     <div class="form-group">
                         <span><label for="empId">Employee ID:</label>
@@ -22,6 +41,10 @@
                         <input type="text" class="form-control" id="empName"placeholder="Enter Employee Name" name="empName"></div>
                         <div class="form-group"><label for="empEmail">Email:</label>
                             <input type="email" class="form-control" id="empEmail"placeholder="Enter Employee Email" name="empEmail"></div>
+                            
+                            <div class="form-group"><label for="empMobile">Mobile:</label>
+                            <input type="text" class="form-control" id="empMobile"placeholder="Enter Employee Mobile Number" name="empMobile"></div>
+                            
                             <input type="button" class="btn btn-primary" id="empSave" value="Save"onclick="saveEmployee();">
                 </form>
             </div>
@@ -43,18 +66,30 @@
             alert("Employee Name is Required Value");
             $("#empName").focus();
             return "";
-        }var empEmailVar = $("#empEmail").val();
+        }
+        var empEmailVar = $("#empEmail").val();
         if (empEmailVar === "") 
         {
             alert("Employee Email is Required Value");
             $("#empEmail").focus();
             return "";
         }
+        
+        var empMobileVar = $("#empMobile").val();
+        if (empMobileVar === "") 
+        {
+        alert("Employee Mobile is Required Value");
+            $("#empMobile").focus();
+            return "";
+        }
+        
+        
         var jsonStrObj =
                 {
-                    empId: empIdVar,
+            empId: empIdVar,
             empName: empNameVar,
             empEmail: empEmailVar,
+            empMobile: empMobileVar,
         };
         return JSON.stringify(jsonStrObj);
     }
@@ -64,7 +99,9 @@
         $("#empId").val("");
         $("#empName").val("");
         $("#empEmail").val("");
+        $("#empMobile").val("");
         $("#empId").focus();
+       
         
     }
     function saveEmployee() 
