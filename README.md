@@ -4,33 +4,35 @@ web Project
 
 
 
-About JsonPowerDB:
+# About JsonPowerDB:
 
-JsonPowerDB is a Database Server with Developer friendly REST API services. It's a High Performance, Light Weight, Ajax Enabled, Serverless, Simple to Use, Real-time Database.
+1.JsonPowerDB is a Database Server with Developer friendly REST API services.
 
-JPDB supports and advocates for true serverless and pluggable API development.
+2.It's a High Performance, Light Weight, Ajax Enabled, Serverless, Simple to Use, Real-time Database.
 
-Easy and fast to develop database applications without using any server side programming / scripting or without installing any kind of database.
+3.JPDB supports and advocates for true serverless and pluggable API development.
 
-You can read the documentation by clicking here.
+4.Easy and fast to develop database applications without using any server side programming / scripting or without installing any kind of database.
 
-Benefits of using JsonPowerDB
+5.You can read the documentation by clicking here.
 
-Multi-mode DBMS - Document DB, Key-Value DB, RDBMS support.
+# Benefits of using JsonPowerDB
 
-Server side Native NoSQL - best query performance.
+1.Multi-mode DBMS - Document DB, Key-Value DB, RDBMS support.
 
-It is low level (raw) form of data and is also human readable.
+2.Server side Native NoSQL - best query performance.
 
-Simplest way to retrieve data in a JSON format.
+3.It is low level (raw) form of data and is also human readable.
 
-Web-services API - Can be used with any programming language that has support for HTTP.
+4.Simplest way to retrieve data in a JSON format.
 
-It is built on top of one of the fastest and real-time data indexing engine - PowerIndeX.
+5.Web-services API - Can be used with any programming language that has support for HTTP.
 
-It helps developers in faster coding, in-turn reduces development cost.
+6.It is built on top of one of the fastest and real-time data indexing engine - PowerIndeX.
 
-Release History
+7.It helps developers in faster coding, in-turn reduces development cost.
+
+# Release History
 
 v0.0.0 (11/08/2021)
 Initialization:
@@ -53,32 +55,32 @@ Enhancements:
 
 Table of Content
 
-Introduction
+# Introduction
 
-Screenshots
+1.Screenshots
 
-Instructions
+2.Instructions
 
-Requirements
+3.Requirements
 
-Execution
+4.Execution
 
-Website
+5.Website
 
-Introduction
+# Introduction
 In this project, you can do the following:
 
 Register a Employee.
 insert a record
 
 
-#Web Page 
+# Web Page 
 ![image](https://user-images.githubusercontent.com/88770440/129271100-128a47ab-d32f-410b-809a-6658a67511e0.png)
 
-#inserting data
+# Inserting data
 ![image](https://user-images.githubusercontent.com/88770440/129271438-2bc14dde-8ce7-4227-99d8-371c6e04531b.png)
 
-#database 
+# Database 
 ![image](https://user-images.githubusercontent.com/88770440/129271237-b140dbeb-5089-4aa5-9953-796f0d77925a.png)
 
 
